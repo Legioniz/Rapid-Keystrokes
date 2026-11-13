@@ -38,7 +38,7 @@ const buttonsef = document.querySelector('button');
 buttonsef.addEventListener('click', event => {
   playStartSound();
 });
-//Pacumberto, King Art D. @Copyright 2023
+
 
 // Function to show the loading screen with different loading states
 function showLoadingScreen() {
@@ -137,7 +137,7 @@ const words = [
   "APL",
   "App",
 ];
-//Pacumberto, King Art D. @Copyright 2023
+
 
 // Get DOM elements
 const textElement = document.getElementById("text");
@@ -157,7 +157,7 @@ let timer = null;
 function getRandomWord() {
   return words[Math.floor(Math.random() * words.length)];
 }
-//Pacumberto, King Art D. @Copyright 2023
+
 
 // Update the text element with the current word
 function setText() {
@@ -181,7 +181,7 @@ function handleInput() {
     }
   }
 }
-//Pacumberto, King Art D. @Copyright 2023
+
 
 // Finish the game and show the result
 function finishGame() {
@@ -206,7 +206,7 @@ function finishGame() {
   document.body.style.backgroundColor = `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`;
 }, 5000);
 }
-//Pacumberto, King Art D. @Copyright 2023
+
 
 function playCongratsSound() {
 // Create an audio context
@@ -231,7 +231,7 @@ gainNode.connect(context.destination);
 oscillator.start(context.currentTime);
 oscillator.stop(context.currentTime + 1);
 }
-//Pacumberto, King Art D. @Copyright 2023
+
 
 // Start the game
 function startGame() {
@@ -270,7 +270,7 @@ function startGame() {
     }
   }, 1000);
 }
-//Pacumberto, King Art D. @Copyright 2023
+
 
 function playEndSound() {
   const context = new AudioContext();
@@ -302,7 +302,7 @@ function initGame() {
   startButton.addEventListener("click", startGame);
   inputElement.addEventListener("input", handleInput);
 }
-//Pacumberto, King Art D. @Copyright 2023
+
 
 function restartGame() {
   // Reset variables
@@ -326,8 +326,7 @@ function restartGame() {
   clearInterval(timer);
 }
 
-//Pacumberto, King Art D. @Copyright 2023
 
 // Call the initGame function to start the game
 initGame();
-//Pacumberto, King Art D. @Copyright 2023
+
