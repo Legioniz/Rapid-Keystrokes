@@ -23,7 +23,6 @@ body {
   color: #2a3743;
 }
 
-/*Pacumberto, King Art D. @Copyright 2023*/
 @media screen and (min-width: 768px) {
   body {
     font-size: 18px;
@@ -35,7 +34,7 @@ body {
     font-size: 14px;
   }
 }
-/*Pacumberto, King Art D. @Copyright 2023*/
+
 .navbar {
   position: fixed;
   top: 0;
@@ -57,7 +56,6 @@ body {
   top: 15px;
   right: 10px;
 }
-/*Pacumberto, King Art D. @Copyright 2023*/
 
 .icon-bar {
   display: block;
@@ -78,7 +76,6 @@ body {
   color: #f0f6fd;
   text-decoration: none;
 }
-/*Pacumberto, King Art D. @Copyright 2023*/
 
 .collapse.in {
   display: block;
@@ -94,7 +91,6 @@ body {
     background-color: #333;
     z-index: 1;
   }
-  /*Pacumberto, King Art D. @Copyright 2023*/
 
   .navbar-nav li {
     display: block;
@@ -115,7 +111,6 @@ body {
     right: 10px;
   }
 }
-/*Pacumberto, King Art D. @Copyright 2023*/
 
 @keyframes fadeIn {
   from {
@@ -169,7 +164,6 @@ h1 {
   display: inline-block;
   margin: 16px auto;
 }
-/*Pacumberto, King Art D. @Copyright 2023*/
 
 @keyframes fire {
   0% {
@@ -224,8 +218,6 @@ button:hover {
   color: #2a3743;
 }
 
-/*Pacumberto, King Art D. @Copyright 2023*/
-
 #timer {
   font-size: 36px;
   margin-bottom: 16px;
@@ -237,4 +229,4 @@ button:hover {
   color: #2a3743;
   margin-top: 24px;
 }
-/*Pacumberto, King Art D. @Copyright 2023*/
+
