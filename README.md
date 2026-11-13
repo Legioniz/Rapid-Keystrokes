@@ -36,4 +36,4 @@ This is an early, self-contained browser project. It uses a fixed word list in t
 
 ## License and ownership
 
-Copyright © 2023 King Art D. Pacumberto. No separate open-source license is currently included; contact the repository owner before redistributing the project.
+Copyright © 2023 Project contributors. No separate open-source license is currently included; contact the repository owner before redistributing the project.
